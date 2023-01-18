@@ -1,0 +1,207 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-footer a, 
+.site-footer a:visited {
+	color: white;
+}
+.site-footer {
+  background: #000;
+  color: white;
+	border-top: none; 
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	margin-top: auto;
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+.footer-info {
+	margin: 5px auto;
+	width: 100%;
+}
+.footer-info h3 {
+	margin: 0;
+	padding: 0;
+	color: #00853E;
+}
+.footer-info h3:after {
+	display:none;
+}
+.social-links {
+	margin: 0.5em;
+	font-size: 1.6em;
+}
+.social-links a,
+.social-links a:visited {
+	padding: 5px 10px;
+	margin: 0 15px;
+	background-color: #00853E;
+	border-radius: 100%;
+	color: black;
+}
+.social-links a i {
+	font-size: 25px;
+}
+.social-links a:hover {
+	color: white;
+}
+
+@media (max-width:900px) {
+	.footer-info h3 { font-size: 3em; }
+	.contact { margin: 0; }
+	.contact h4 { font-size: 1.7em; }
+	.contact p { font-size: 1em; }
+	.social-links { font-size: 1.2em; }
+	.social-links a, .social-links a:visited { margin: 0 8px; }
+	.social-links a i { font-size: 18px; }
+	.newsletter h4 { font-size: 1.4em; }
+	.credits { font-size: 12px; }
+}
+@media (max-width:652px) {
+	.newsletter input[type=email] {
+		padding: 1rem;
+		width: 355px;
+	}
+	.newsletter input[type=submit] {
+		font-size: 1rem;
+		padding: 1rem;
+	}
+}
+@media (max-width:565px) {
+	.newsletter input[type=submit] {
+		width: 45%;
+	}
+}
+@media (max-width:310px) {
+	.social-links a, .social-links a:visited { margin: 0 1px; }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #eee;
+}
+#footer .footer-top .social-links a {
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  margin-right: 4px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer-top .social-links a i {
+  line-height: 0;
+  font-size: 35px;
+}
+#footer .footer-top .social-links a:hover {
+  background: #00853e;
+  color: #fff;
+}
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+#footer .footer-top h4::before, #footer .footer-top h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+}
+#footer .footer-top h4::before {
+  right: 0;
+  background: #555;
+}
+#footer .footer-top h4::after {
+  background: #00853e;
+  width: 60px;
+}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .footer-top .footer-links ul i {
+  padding-right: 8px;
+  color: #ddd;
+}
+#footer .footer-top .footer-links ul li {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+#footer .footer-top .footer-links ul a {
+  color: #eee;
+}
+#footer .footer-top .footer-links ul a:hover {
+  color: #00853e;
+}
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-newsletter input[type=email] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+#footer .footer-top .footer-newsletter input[type=submit] {
+  background: #00853e;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#footer .footer-top .footer-newsletter input[type=submit]:hover {
+  background: #13a456;
+}
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #ddd;
+}
+*/

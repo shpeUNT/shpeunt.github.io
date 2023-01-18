@@ -1,0 +1,196 @@
+---
+permalink: /about.html
+layout: default
+title: About
+---
+
+<!-- ======= About Us Section ======= -->
+<div class="about-us-content">
+  <a href="#team" class="team-button"><strong>Meet the UNT SHPE Team!</strong></a>
+
+  <!-- ABOUT US-->
+  <h1>About Us</h1>
+
+  <div class="mvv-boxes">
+    <div class="about-block mission-box bg-img">
+      <h2>Our Mission</h2>
+      <p>
+        <strong>SHPE</strong> empowers the Hispanic community to realize its
+        greatest potential. We impact the world by allowing access to
+        professional knowledge, supporting all who dream, developing education
+        goals, and promoting the STEM based fields.
+      </p>
+    </div>
+
+    <div class="about-block values-box bg-img">
+      <h2>Our Values</h2>
+      <p>
+        <strong>SHPE</strong> has four main ideas we values.<br /><strong>Familia, Service, Learning,</strong> and <strong>Resilience</strong>.
+      </p>
+    </div>
+
+    <div class="about-block vision-box bg-img">
+      <h2>Our Vision</h2>
+      <p>
+        <strong>SHPE's vision</strong> is a world where Hispanics are highly
+        valued and influential as the leading innovators, scienctists,
+        mathematicians, and engineers.
+      </p>
+    </div>
+  </div>
+
+  <!-- ABOUT US BLOCKS-->
+  <div class="about-shpe about-info">
+    <h1>what is shpe</h1>
+    <img src="/images/misc/SHPE-logo-Region5.jpg" alt="SHPE Region 5 Logo" class="banner-logo"/>
+    <p>
+      SHPE as a whole, our goal is to create an impact on Hispanics in STEM
+      throughout the nation. Student and professional members offer each other
+      mentorship, and a vibrant community.
+    </p>
+    <br />
+    <p>
+      We value education and professional development which allows us to improve
+      and learn from each others.
+    </p>
+    <br />
+    <img src="/images/misc/SHPE-Region-Map.jpg" alt="SHPE Region Map" class="region-map"/>
+    <p>The <strong>SHPE UNT</strong> chapter is part of SHPE Region 5.</p>
+    <p><br /></p>
+  </div>
+
+  <!-- SHPEtinas-->
+  <div class="shpetinas about-info">
+    <h1>SHPEtinas</h1>
+    <img src="/images/misc/SHPEtinas.jpg" alt="SHPE tinas Logo" class="banner-logo"/>
+
+    <p>
+      "The <strong>purpose</strong> of SHPEtinas is to build a community that
+      empowers women in STEM and help them navigate through a male-dominated
+      work and learning environment while accomplishing their own goals. We have
+      built a safe and encouraging environment that motivates women to do their
+      best in their professional, academic, and personal life, while at the same
+      time becoming the best version of themselves."
+    </p>
+    <br />
+
+    <img class="shpetinas-photo" src="/images/shpe/jpg/shpetinas.jpg" alt="UNT SHPE tinas photo of group"/>
+
+    <p>
+      Here at UNT SHPEtinas, our mission is: "We want to form a safe and
+      empowering environment for every woman in STEM so that they get the proper
+      resources and representation in the male-dominated STEM field.
+    </p>
+    <br />
+
+    <p>
+      UNT SHPEtinas chapter strives to help our SHPEtinas form strong bonds and
+      friendships that will help us grow as young professionals, and will work
+      hard to provide workshops, informational panels, and various activities to
+      guide and teach our SHPEtinas how to navigate the professional world, as
+      well as giving them tons of support!
+    </p>
+  </div>
+
+  <!-- MentorSHPE-->
+  <div class="mentorshpe about-info">
+    <h1>MentorSHPE</h1>
+    <img src="/images/misc/MentorSHPE.jpg" alt="Mentor SHPE Logo" class="banner-logo"/>
+    <p>
+      Within the MentorSHPE program, we will have an experienced mentor provide
+      honest guidance and advice to their mentee throughout the year. The goal
+      for our program is to strive our mentees to enhance their professional
+      growth.
+    </p>
+    <br />
+    <p>What will having a Mentor offer to their Mentees?</p>
+    <ul class="mentorshpe-bullet">
+      <li>Motivation</li>
+      <li>Advice</li>
+      <li>Direction</li>
+      <li>Support</li>
+      <li>Strive to Goals</li>
+      <li>Training</li>
+      <li>Coaching</li>
+    </ul>
+    <br />
+    <p>Are there benefits in being a Mentor? <strong>Yes!</strong></p>
+    <ul class="mentorshpe-bullets">
+      <li>Wisdom and knowledge granter</li>
+      <li>Leadership skill building</li>
+      <li>Character development</li>
+      <li>Management and network soft-skills</li>
+      <li>Give back to your SHPE UNT Familia!</li>
+    </ul>
+  </div>
+
+  <!-- SHPEjr -->
+  <h1>SHPEjr</h1>
+  <img src="/images/misc/SHPE-Noche-de-Ciencias.jpg" alt="Noche de Ciencias Logo for SHPE jr" class="region-map"/>
+  <div class="shpejr about-info">
+    <img class="shpejr-photo" src="/images/shpe/jpg/shpejunior.jpg" alt="UNT SHPE junior photo of group"/>
+    <p>Information on SHPEjr</p>
+  </div>
+
+  <!-- UNT TEAM -->
+  <h1 id="team" class="team-title">Meet the 2022-23 UNT TEAM</h1>
+
+  <!-- Officers Exec Board -->
+  <h2 class="team-header">Executive Board</h2>
+  <div class="grid-member-container">
+    {% for member in site.officers %} {% if member.exec == true %}
+    <div class="grid-item member">
+      <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
+      {% if member.hasPage == false %}
+      <a class="name" href="/no-officer-page"><p>{{ member.fname }}</p></a>
+      {% endif %} {% if member.hasPage == true %}
+      <a class="name" href="/officers/{{ member.name }}"
+        ><p>{{ member.fname }}</p></a
+      >
+      {% endif %}
+      <p class="office-position">{{ member.position }}</p>
+      <p class="degree">{{ member.degree }}</p>
+      <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+
+  <!-- Officers Chairs -->
+  <h2 class="team-header">Chair</h2>
+  <div class="grid-member-container">
+    {% for member in site.officers %} {% if member.exec == false %}
+    <div class="grid-item member">
+      <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
+      {% if member.hasPage == false %}
+      <a class="name" href="/no-officer-page"><p>{{ member.fname }}</p></a>
+      {% endif %} {% if member.hasPage == true %}
+      <a class="name" href="/officers/{{ member.name }}"
+        ><p>{{ member.fname }}</p></a
+      >
+      {% endif %}
+      <p class="office-position">{{ member.position }}</p>
+      <p class="degree">{{ member.degree }}</p>
+      <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+
+  <!-- Advisor -->
+  <h2 class="team-header">Advisor</h2>
+  <div class="grid-member-container">
+    <div class="grid-item member advisor">
+      <img src="/images/officers/png/Hector.jpg" alt="Hector R. Siller Profile Image"/>
+      <a class="name" href="https://mechanical.engineering.unt.edu/faculty/hector-r-siller"><p>Hector R. Siller</p></a>
+      <p>Hector.Siller@unt.edu</p>
+      <p>940-565-2362</p>
+    </div>
+  </div>
+
+  <!-- BYLAWS -->
+  <div class="bylaws">
+    <h1>UNT Bylaws</h1>
+    <embed class="bylaws-pdf" src="/images/misc/SHPE_UNT_Bylaws.pdf" alt="UNT Bylaws PDF"/>
+  </div>
+</div>
+<!-- end of container -->
+<!-- End About Us Section -->

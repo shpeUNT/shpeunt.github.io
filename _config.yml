@@ -1,0 +1,21 @@
+title: UNT
+email: shpeunt@gmail.com 
+description: Society of Hispanic Professional Engineers
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: shpeunt
+instagram_username: shpeunt
+# snapchat_username: untshpe
+# discord_server: discord.gg/Nhp2mAVNUN
+# github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  officers:
+    output: true
+  events:
+    output: true

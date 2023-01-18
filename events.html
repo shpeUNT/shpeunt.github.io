@@ -1,0 +1,51 @@
+---
+permalink: /events.html
+layout: default
+title: Event
+---
+
+<div class="event-calendar">
+  <header class="section-header">
+    <h3>Event Calender</h3>
+  </header>
+
+  <div align="center">
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=c3anti6dnthrueto743uer8e5k%40group.calendar.google.com&ctz=America%2FChicago"
+      style="border: 0"
+      width="800"
+      height="600"
+      frameborder="0"
+      scrolling="no"
+    ></iframe>
+  </div>
+</div>
+
+<section>
+  <div class="event-section">
+    <header class="section-header">
+      <h3>Current Events</h3>
+    </header>
+    <div class="event-content">
+      {% for image in site.static_files %}
+        {% if image.path contains '/images/current-flyers' %}
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="event-section">
+    <header class="section-header">
+      <h3>Previous Events</h3>
+    </header>
+
+    <div class="event-content">
+      {% for image in site.static_files %}
+        {% if image.path contains '/images/past-flyers' %}
+          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

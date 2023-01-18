@@ -1,0 +1,97 @@
+/*------------------------------
+	Home
+--------------------------------*/
+.home-welcome {
+	position: relative;
+	display: grid;
+	align-content: center;
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	animation: slide 40s infinite;
+}	
+.welcome {
+	margin: 0;
+	position: inherit;
+  background: rgba(0,0,0,0.8);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  font-size: 5rem;
+  font-weight: 700;
+	text-align: center;
+	color: #00853e;
+}
+.home-event {
+  padding: 30px 0 0 0;
+	display: contents;
+	text-align: center;
+}
+.post-list-heading {
+	margin: 15px 0 5px 0;
+	display: grid;
+	justify-content: center;
+	font-size: 2.5em;
+}
+.home-event h2::after {
+	content: "";
+	width: 55vw;
+	height: 3px;
+	background-color: #00853E;
+}
+.post-list { font-size: 1.5em; }
+.post-list h3 {
+	display: grid;
+	justify-content: center;
+}
+.post-list li {
+	margin: 0 0 5px 0;
+}
+.post-list li h3::after {
+	content: "";
+	width: 75vw;
+	height: 1px;
+	background-color: #333;
+}
+.post-link { margin: 0 15%; }
+.post-link:hover { background-color: #ddd; color: #00853E; }
+
+@media (max-width: 1000px) {
+	.home-welcome {
+		height: 500px;
+	}
+	.welcome {
+		font-size: 3rem;
+		font-weight: 850;
+	}
+	.home-event h2 { font-size: 2em;  }
+	.post-list li h3 { font-size: 1.2em; }
+	.post-link { font-size: 0.7em; }
+}
+@media (max-width:555px) {
+	.home-welcome {
+		height: 200px;
+	}
+	.welcome {
+		font-size: 1.2rem;
+		font-weight: 1000;
+	}
+	.home-event h2 { font-size: 1.5em;  }
+	.post-list li h3 { font-size: 0.8em; }
+	.post-link { font-size: 0.7em; }
+}
+
+@keyframes slide {
+	0%{ background-image: url('/images/backgrounds/jpg/bg1.jpg'); }
+	20%{ background-image: url('/images/backgrounds/jpg/bg1.jpg'); }
+	20.01%{ background-image: url('/images/backgrounds/jpg/bg2.jpg'); }
+	40%{ background-image: url('/images/backgrounds/jpg/bg2.jpg'); }
+	40.01%{ background-image: url('/images/backgrounds/jpg/bg3.jpg'); }
+	60%{ background-image: url('/images/backgrounds/jpg/bg3.jpg'); }
+	60.01%{ background-image: url('/images/backgrounds/jpg/bg4.jpg'); }
+	80%{ background-image: url('/images/backgrounds/jpg/bg4.jpg'); }
+	80.01%{ background-image: url('/images/backgrounds/jpg/bg5.jpg'); }
+	100%{ background-image: url('/images/backgrounds/jpg/bg5.jpg'); }
+}

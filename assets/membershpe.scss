@@ -1,0 +1,44 @@
+/*------------------------------
+	MemberSHPE
+--------------------------------*/
+.header-titles {
+  font-size: 45px;
+}
+
+.flex-container {
+   display: flex;
+}
+
+.flex-child {
+   flex: 1;
+}
+
+.flex-child:first-child {
+   margin-right: 20px;
+}
+
+.dues-info-box {
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+}
+
+.button {
+  background-color: #425884;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.discord-button {
+   text-align: center;
+   margin: auto;
+   padding-bottom: 10px;
+}

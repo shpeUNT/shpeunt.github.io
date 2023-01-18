@@ -1,0 +1,70 @@
+/*-------------------------------
+	Personal
+--------------------------------*/
+.personal {
+	text-align: center;
+	margin: 0 5em;
+}
+.title-bar { 
+	font-weight: bold;
+	text-align: left;
+	padding: 0 0 10px 30px;
+	margin: 0 0 5px 0;
+	background-color: #00853E;
+}
+.title-bar h1 {
+	font-size: 4em;
+	font-weight: bold;
+	margin: 0;
+	border-bottom: none;
+}
+.title-bar h2 {
+	font-size: 1.5em;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.link-btn {
+	position: inherit;
+	margin: 0 0.5em 0 auto;
+	border: 2px solid black;
+	padding: 5px;
+	width: 45px;
+	text-align: center;
+}
+.link-btn:hover { 
+	background: black;
+	color: white;
+}
+.personal img {
+	height: 400px;
+	width: 400px;
+}
+.personal h3 { 
+	font-size: 1.25em;
+	font-weight: bold;
+	border-bottom: .1em solid black;
+	margin: 1em 0;
+}
+.personal h3:after { 
+	display: none;
+}
+.personal ul {
+	display: grid;
+	justify-items: left;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+}
+.col { 
+	width: 30%;
+	padding: 0 2em;
+}
+/*
+.col img { 
+	display: block;
+}
+*/
+
+

@@ -1,0 +1,246 @@
+/*------------------------------
+	About Us
+--------------------------------*/
+
+.about-us-content {
+	display: grid;
+	justify-items: center;
+	justify-content: center;
+}
+
+.about-us-content h1,
+.about-us-content h2,
+.about-us-content h3,
+.about-us-content p {
+	margin: 0;
+	padding: 0;
+}
+.about-us-content h1:after {
+	content: "";
+	background-color: black;
+	position: absolute;
+	width: 85vw;
+	height: 7px;
+	left: calc(50% - 42.5vw);
+	bottom: 10px;
+}
+
+// TEAM BUTTON
+.team-button {
+	background: #00853E;
+	font-size: 2em;
+	padding: 0.5em 7.5em;
+	margin-top: 10px;
+}
+.team-button:hover {
+	color: #00853E;
+	background: #111;
+}
+
+// ABOUT BLOCKS 
+.mvv-boxes {
+	display: flex;
+	justify-content: center;
+}
+
+.about-block {
+	position: relative;
+	border: 3px solid #00853E;
+	margin: 0 auto;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 250px;
+	justify-content: center;
+}
+
+.about-block h2, .about-block p {
+	color: #fff;
+	position: relative;
+}
+
+.about-block:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.55);
+}
+
+.bg-img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mission-box {
+	background-image: url("/images/backgrounds/jpg/bg_about_mission.jpg");
+}
+.values-box {
+	background-image: url("/images/backgrounds/jpg/bg_about_value.jpg"); 
+}
+.vision-box {
+	background-image: url("/images/backgrounds/jpg/bg_about_vision.jpg"); 
+}
+
+@media(max-width:1450px) {
+	.mvv-boxes {
+		flex-direction: column;
+	}
+	.about-block {
+		margin: 5px auto;
+		width: 85%
+	}
+}
+
+// ABOUT US INFORMATION
+.shpetinas h1,
+.mentorshpe h1,
+.shpejr h1 {
+	text-transform: none;
+}
+
+.about-info {
+	width: 90%;
+	text-align: center;
+}
+
+.mentorshpe { 
+	display: grid;
+	justify-items: center;
+}
+.mentorshpe p { 
+	width: 75vw;
+	margin: 10px 0;
+}
+.mentorshpe-bullet,
+.mentorshpe-bullets {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0;
+	column-gap: 6vw;
+	row-gap: 5px;
+	text-align: left;
+}
+
+.shpejr {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.shpejr img {
+    width: 50%;
+    max-height: 500px;
+}
+
+@media all and (min-width: 1249px) {
+	.banner-logo { width: 55vw; }
+	.region-map { width: 55vw; }
+}
+@media all and (max-width: 1250px) {
+	.banner-logo { width: 75vw; }
+	.region-map { width: 65vw; }
+	.mentorshpe-bullet {
+		grid-template-columns: auto auto;
+	}
+	.mentorshpe-bullets {
+		grid-template-columns: auto auto;
+	}
+}
+@media all and (max-width: 650px) {
+	.mentorshpe-bullet {
+		grid-template-columns: auto auto;
+	}
+	.mentorshpe-bullets {
+		grid-template-columns: auto;
+	}
+}
+
+// BYLAWS
+
+.bylaws-pdf {
+	width: 100%;
+	height: 550px;
+	margin-bottom: 10px;
+}
+@media all and (max-width: 550px) {
+	.bylaws-pdf {
+		width: 95vw;
+	}
+}
+
+// TEAM MEMBER SECTION
+.team-title {
+	font-weight: bold;
+}
+.grid-member-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 10px;
+	padding: 10px;
+	justify-content: space-evenly;
+}
+.member,
+.member a,
+.member a:visited,
+.member p {
+	display: grid;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: 0;
+	justify-content: center;
+}
+.member a:hover,
+.member .name p:hover { 
+	color: white; 
+	background-color: #00853E;
+}
+.name p {
+	color: #00853E;
+	font-size: 3em;
+	font-weight: bold;
+}
+.member img {
+	max-height: 450px;
+	min-width: 350px;
+}
+.linkin-button {
+	padding: 10px;
+}
+.advisor p {
+  margin-bottom: 10px;
+}
+
+// CONVERT SCREEN SIZING
+
+@media all and (max-width: 1550px) {
+	.grid-member-container {
+		grid-template-columns: auto auto auto;
+	}
+}
+@media all and (max-width: 1150px) {
+	.team-button { padding: 0.5em 5em; }
+	.grid-member-container {
+		grid-template-columns: auto auto;
+	}
+}
+@media all and (max-width: 800px) {
+	.team-button {
+		padding: 0.5em 3.8em;
+		font-size: 1.4em;
+	}
+	.grid-member-container {
+		grid-template-columns: auto;
+	}
+}
+@media all and (max-width: 450px) {
+	.team-button {
+		padding: 0.5em 4.8em;
+		font-size: 1em;
+	}
+}
+

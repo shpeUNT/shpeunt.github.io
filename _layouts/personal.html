@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<!-- ======= Personal Section ======= -->
+<section class="personal">
+  <div class="title-bar">
+    <h1>{{ page.fname }}</h1>
+    <h2>
+      {{ page.degree }}
+      <a class="link-btn" href="https://www.linkedin.com/in/{{ page.linkedin }}/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </h2>
+    <h2>Email: {{ page.email }}</h2>
+  </div>
+  <div class="info">
+    <div class="col">
+      <img src="{{ page.pimage }}" alt="" />
+      <h3>Quote</h3>
+      <p>{{ page.quote }}</p>
+    </div>
+
+    <div class="col">
+      <h3>SHPE Position</h3>
+      <p>{{ page.position }}</p>
+      <h3>About Me</h3>
+      <p>{{ page.bio }}</p>
+      <h3>Background</h3>
+      <ul>
+        <li>Hometown - {{ page.hometown }}</li>
+        {% for bg in page.background %}
+        <li>{{ bg }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col">
+      <h3>Skills</h3>
+      <ul>
+        {% for skill in page.skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
+      <h3>Current Career Interests</h3>
+      <p>{{ page.interest }}</p>
+      <h3>Future Goals</h3>
+      <ul>
+        {% for goal in page.goals %}
+        <li>{{ goal }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- End Personal Section -->
