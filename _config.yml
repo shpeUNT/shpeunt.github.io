@@ -14,6 +14,11 @@ instagram_username: shpeunt
 plugins:
   - jekyll-feed
 
+sass:
+  load_path:
+    - _sass
+    - assets
+
 collections:
   officers:
     output: true
