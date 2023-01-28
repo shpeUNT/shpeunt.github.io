@@ -1,6 +1,5 @@
 ---
 ---
-// @import "minima";
 @import "assets/shpe-header.scss", "assets/shpe-footer.scss";
 @import "assets/home.scss";
 @import "assets/about.scss";
@@ -25,9 +24,6 @@ a:hover, a:active, a:focus {
     color: #00853E;
     outline: none;
     text-decoration: none;
-}
-a:visited {
-    color: black;
 }
 
 h1, h2, h3, h4, h5, h6 {
