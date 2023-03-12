@@ -9,7 +9,7 @@ email: RyanTijerina@my.unt.edu
 hometown: North Richland Hills, TX
 degree: Bachelors in Mechanical and Energy Engineering
 position: MentorSHPE Officer
-quote: As we advance in life it becomes more and more difficult, but in fighting the difficulties the inmost strength of the heart is developed.
+quote: “As we advance in life it becomes more and more difficult, but in fighting the difficulties the inmost strength of the heart is developed.”
 bio: My major is Mechanical Engineering, and I plan on applying my skills to a company as a fulfilled career. Being an Engineer has always been a career that has attained my inspiration to make future technological innovations that help improve machine mechanisms to operate expeditiously. I’m currently a MentorSHPE director for The Society of Hispanic Professional Engineers (SHPE) at The University of North Texas.
 background:
 - Experience in running Solidworks to focus on the design properties of mechanical mechanisms

@@ -9,7 +9,7 @@ email: EdwinSoto-Villela@my.unt.edu
 hometown: Denton, TX
 degree: Bachelors in Computer Science
 position: Webmaster 
-quote: If you aren't continuously looking up and putting in the effort, you can't reach the next level.
+quote: “If you aren't continuously looking up and putting in the effort, you can't reach the next level.”
 bio: As a first generation Hispanic student, college has been challenging, navigating through new experiences and environments. Starting out college with little to no family members pursuing a college degree has been an intimidating process since guidance is limited. However, I took a gamble in 2019 and started my exploration in education and technology. Today, I am a senior majoring in computer science at the University of North Texas. Throughout my experiences in university, projects, and my recent internship, I've gained skills such as C/C++, Python, HTML, CSS, Jekyll, RALLY, MS Suite, Git and Linux. Outside of school, I love to talk about new tech, enjoy food, and  hang out with friends I’ve made from my local SHPE chapter!
 background:
 - First Generation Student

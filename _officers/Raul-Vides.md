@@ -9,7 +9,7 @@ email: Raul.vides2499@gmail.com
 hometown: Austin, TX
 degree: Bachelors in Electical Engineering
 position: Public Relations
-quote: Variety is the spice of life” -Keith Brewer (my internship mentor)
+quote: “Variety is the spice of life” -Keith Brewer (my internship mentor)
 bio: As a super senior in Electrical Engineering, I’m excited to serve SHPE as not only a Public Relations Officer, but I’m also excited to serve as a Vice RSR and hopefully develop the opportunity to set a great example among my community. 
 background: 
 - First GEneration Student

@@ -9,7 +9,7 @@ email: HumbertoRomero@my.unt.edu
 hometown: Era, TX
 degree: Masters in Electical Engineering 
 position: President
-quote: You, me, or nobody is gonna hit as hard as life, but it ain’t about how hard you hit it is about how hard you can get hit and keep moving forward. How much you can take and keep moving forward. - Rocky Balboa 
+quote: “You, me, or nobody is gonna hit as hard as life, but it ain’t about how hard you hit it is about how hard you can get hit and keep moving forward. How much you can take and keep moving forward.” - Rocky Balboa 
 bio: Finishing the last year of a Master’s degree in Electrical Engineering. Focusing in Digital Design and Renewable Power Systems. This is my second year as President of the UNT SHPE chapter and look forward to an amazing year. 
 background:
 - B.S. in Electrical Engineering at the University of North Texas

@@ -9,7 +9,7 @@ email: joshmed93@hotmail.com
 hometown: Fort Worth, TX
 degree: Bachelors in Mechanical and Energy Engineering 
 position: Internal Vice President
-quote: Do or do not, there is no try - Yoda 
+quote: “Do or do not, there is no try.” - Yoda 
 bio: 
 background: 
 - B.S. Mathematics and Statistics at Texas Tech University

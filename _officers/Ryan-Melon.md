@@ -9,7 +9,7 @@ email: RyanMelon@my.unt.edu
 hometown: Miami, FL 
 degree: Bachelors in Mechanical Engineering Technology
 position: Secretary
-quote: When the world shoves you around, you just gotta stand up and shove back. It's not like somebody's gonna save you if you start babbling excuses. - Roronoa Zoro
+quote: “When the world shoves you around, you just gotta stand up and shove back. It's not like somebody's gonna save you if you start babbling excuses.” - Roronoa Zoro
 bio:  I’ve known I’ve wanted to become an engineer ever since I was a child. I love solving problems and being a help to others. I enjoy working with my peers and am truly proud to be SHPE UNT’s secretary this year! 
 background: 
 - Dean's List Recipient
