@@ -32,7 +32,7 @@ MemberSHPE
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -51,14 +51,26 @@ MemberSHPE
     width: 80%
 }
 
+/* Youtube Video CSS START*/
 .shpe-video {
     display: flex;
     justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-.responsive {
+.responsive-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+/* Youtube Video CSS END*/
+
+.responsive-image{
+    border:5px solid #555;
     margin: 10px;
-    width: 95%;
+    max-width: 100%;
+    height: auto;
 }
+
 @media all and (max-width: 720px) {
     .responsive {
         width: 75%;
