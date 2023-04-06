@@ -1,7 +1,5 @@
 # To Do List
 - Follow current website [shpe unt](https://www.shpeunt.com/)
-- SHPE UTA Website: https://utashpe.weebly.com/
-- SHPE UH Website: http://shpeuh.weebly.com/
 
 - [ ] CSS Adjustment
     - [ ] Check all pages for media screen sizes
@@ -16,11 +14,11 @@
         - [ ] MemberSHPE: Join Image needs resizing
         - [ ] MemberSHPE: Join Now! Button Color and Hover
         - [ ] Footer: Adjust Margin below, 5px worth
-- [ ] Resource Page
+- [x] Resource Page
   - [x] Information over Conferences
   - [x] Information over SHPEtinas
   - [x] Information over Professional Chapter
-  - [ ] Information over SHPEJr
+  - [x] Information over SHPEJr
 - [ ] Refactor HTML for Head, Header, and Footer
 - [ ] Remove unnecessary file such as images
 - [ ] ADA Compliance 
@@ -34,8 +32,8 @@
     - [ ] Get outside response on performance of website (AccessComputing)
 
 
-- [X] New Link Font Color - Blue 
-- [X] Update shpe-footer to stick to bottom of the page
+- [x] New Link Font Color - Blue 
+- [x] Update shpe-footer to stick to bottom of the page
 - [x] Landing Page
   - [x] Take off margin off image (in the content of main)
 - [x] About Page

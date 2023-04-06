@@ -2,11 +2,11 @@
 	Hero
 --------------------------------*/
 .eagle-logo {
-  width:auto;
-  max-width:100px;
-	padding: 10px 0;
-	margin: 0 0;
-  text-align:inherit;
+  width: auto;
+  max-width: 100px;
+  padding: 10px 0;
+  margin: 0 0;
+  text-align: inherit;
 }
 
 #hero {
@@ -16,7 +16,10 @@
   overflow: hidden;
   position: relative;
 }
-#hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
+#hero .carousel,
+#hero .carousel-inner,
+#hero .carousel-item,
+#hero .carousel-item::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -69,10 +72,12 @@
   left: 0;
   transform: translate3d(0, 0, 0);
 }
-#hero .carousel-control-prev, #hero .carousel-control-next {
+#hero .carousel-control-prev,
+#hero .carousel-control-next {
   width: 10%;
 }
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+#hero .carousel-control-next-icon,
+#hero .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
