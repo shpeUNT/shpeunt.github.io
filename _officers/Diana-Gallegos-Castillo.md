@@ -16,7 +16,7 @@ background:
 - Recipient of President's Excellence Scholarship
 - On the UNT President's List 3 times
 goals:
-- Earn a B.S. in Computer Science with minors in Accounting and Business foundations by May 2005
+- Earn a B.S. in Computer Science with minors in Accounting and Business foundations by May 2025
 - Obtain an internship with a reputable company to grow professionally by Summer 2024
 skills:
 - Excel Certified
