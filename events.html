@@ -28,7 +28,7 @@ title: Event
     </header>
     <div class="event-content">
       {% for image in site.static_files %}
-        {% if image.path contains '/images/current-flyers' %}
+        {% if image.path contains '/images/flyers/current-flyers' %}
           <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
         {% endif %}
       {% endfor %}
@@ -42,7 +42,7 @@ title: Event
 
     <div class="event-content">
       {% for image in site.static_files %}
-        {% if image.path contains '/images/past-flyers' %}
+        {% if image.path contains '/images/flyers/past-flyers' %}
           <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
         {% endif %}
       {% endfor %}
