@@ -197,6 +197,7 @@ About Us
   gap: 10px;
   padding: 10px;
   justify-content: space-evenly;
+  width: 400px;
 }
 .member,
 .member a,
@@ -220,9 +221,12 @@ About Us
   font-weight: bold;
 }
 .grid-item.member img {
-  width: 100%;
-  height: 100%;
-  max-height: 400px;
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  // width: 100%;
+  // height: 100%;
+  // max-height: 400px;
 }
 .linkin-button {
   padding: 10px;
