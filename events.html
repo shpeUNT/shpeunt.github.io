@@ -9,15 +9,10 @@ title: Event
     <h3>Event Calendar</h3>
   </header>
 
-  <div align="center" class="responsive-iframe-container big-container">
+  <div align="center" class="calendar-box responsive-iframe-container big-container">
     <iframe
       src="https://calendar.google.com/calendar/embed?src=e6c1f42c42f6fa2b5708058ab3ddf86431897d329f3f839cd2882a634b84ce4e%40group.calendar.google.com&ctz=America%2FChicago"
-      style="border: 0"
-      width="800"
-      height="600"
-      frameborder="0"
-      scrolling="no"
-    ></iframe>
+      style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   </div>
 </div>
 
@@ -28,9 +23,9 @@ title: Event
     </header>
     <div class="event-content">
       {% for image in site.static_files %}
-        {% if image.path contains '/images/flyers/current-flyers' %}
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
-        {% endif %}
+      {% if image.path contains '/images/flyers/current-flyers' %}
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
+      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -42,9 +37,9 @@ title: Event
 
     <div class="event-content">
       {% for image in site.static_files %}
-        {% if image.path contains '/images/flyers/past-flyers' %}
-          <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
-        {% endif %}
+      {% if image.path contains '/images/flyers/past-flyers' %}
+      <img src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.name }}" />
+      {% endif %}
       {% endfor %}
     </div>
   </div>

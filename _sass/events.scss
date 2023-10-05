@@ -24,14 +24,17 @@
   border-radius: 5px;
   object-fit: cover;
 }
+
 /* Responsive iFrame */
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
+  margin: 0 50px;
   height: 0;
   overflow: hidden;
 }
+
 .responsive-iframe-container iframe,
 .vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
