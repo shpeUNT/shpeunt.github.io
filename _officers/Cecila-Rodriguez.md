@@ -1,14 +1,14 @@
 ---
 layout: personal
 name: Cecila-Rodriguez
-exec: false
+exec: true
 hasPage: false
 pimage: /images/officers/png/Cecila.png
 fname: Cecila Rodriguez
 email: ceciliarod2811@gmail.com
 hometown: Waxachache, TX
 degree: Bachelors in Mechanical and Energy Enginneering
-position: SHPE Social Chair
+position: External Vice President
 quote: temp
 bio: temp
 background: 

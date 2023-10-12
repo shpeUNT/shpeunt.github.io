@@ -1,13 +1,13 @@
 ---
 layout: personal
-name: Steven-Jamaica
+name: Derek-Borojas
 exec: false
 hasPage: false
-pimage: /images/officers/png/Steven.png
-fname:  Steven Jamaica
-email: StevenJamaica@my.unt.edu
+pimage: /images/officers/png/Derek.png
+fname:  Derek Borojas
+email: DerekBorojas@my.unt.edu
 hometown: Denton, TX
-degree: Bachelors in Computer Science 
+degree: Bachelors in Mechanical Engineering Technology
 position: Historian
 quote: temp
 bio: temp
@@ -21,5 +21,5 @@ skills:
 - temp
 - temp
 interest: temp
-linkedin: steven-jamaica-900749154
+linkedin: derek-borjas-864b34258
 ---
