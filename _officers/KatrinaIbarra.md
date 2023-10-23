@@ -7,7 +7,7 @@ pimage: /images/officers/png/Katrina.png
 fname: Katrina Ibarra
 email: KatrinaIbarra@my.unt.edu
 hometown:
-degree:
+degree: Bachelors in Human Resource Management
 position: Treasurer
 quote:
 bio: 
