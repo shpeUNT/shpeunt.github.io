@@ -7,7 +7,7 @@ pimage: /images/officers/png/Oscar.png
 fname: Oscar Cura Martinez
 email: OscarCuraMartinez@my.unt.edu
 hometown:
-degree:
+degree: Bachelors in Construction Engineering Technology
 position: Athletic Director
 quote:
 bio: 
