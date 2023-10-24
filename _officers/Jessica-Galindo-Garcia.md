@@ -2,8 +2,8 @@
 layout: personal
 name: Jessica-Galindo-Garcia
 exec: true
-hasPage: true
-pimage: /images/officers/png/Jessica.png
+hasPage: false
+pimage: /images/icons/png/eagle_logo.png
 fname:  Jessica Galindo Garcia
 email: JessicaGalindoGarcia@my.unt.edu
 hometown: Born in Mexico, now Fort Worth 
