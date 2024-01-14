@@ -37,3 +37,5 @@ gem "webrick", "~> 1.7"
 gem "jekyll-sass-converter", "~> 2.2"
 
 gem "faraday-retry", "~> 2.0"
+
+gem 'eventmachine', '~> 1.2', '>= 1.2.7'
