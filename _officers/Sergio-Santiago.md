@@ -3,7 +3,7 @@ layout: personal
 name: Sergio-Santiago
 exec: false
 hasPage: true 
-pimage: 
+pimage: /images/icons/png/eagle_logo.png
 fname: Sergio Santiago 
 email: SergioSantiago@my.unt.edu
 hometown: Carrollton, TX
@@ -22,4 +22,5 @@ skills:
 - Software - VSCode, Github
 interest: Reverse Engineering, Encryption Techniques, Intrusion Detection and Prevention
 linkedin: sergio-santiago333
+order: 7
 ---

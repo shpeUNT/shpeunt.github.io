@@ -193,11 +193,26 @@ About Us
 }
 .grid-member-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  // grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   padding: 10px;
   justify-content: space-evenly;
 }
+// .exec-member {
+//   grid-row: 1;
+// }
+// .chair-member {
+//   grid-row: 2;
+// }
+.order-1 { grid-row: 1; }
+.order-2 { grid-row: 2; }
+.order-3 { grid-row: 3; }
+.order-4 { grid-row: 4; }
+.order-5 { grid-row: 5; }
+.order-6 { grid-row: 6; }
+.order-7 { grid-row: 7; }
+.order-8 { grid-row: 8; }
 .member,
 .member a,
 .member a:visited,

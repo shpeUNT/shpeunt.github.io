@@ -7,3 +7,4 @@ _posts/2022-05-28-Test-Post.markdown
 Gemfile.lock
 Gemfile
 .bundle
+.aider*

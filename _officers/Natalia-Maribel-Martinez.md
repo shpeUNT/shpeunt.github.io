@@ -31,4 +31,5 @@ skills:
 - Interpersonal Skills Team Building, Organization, Team/Time Management, Continuous Development, Communication 
 interest: Embedded Systems Engineering, Systems Engineering, Electrical Engineering, Application Engineering, Hardware Engineering, Firmware Engineering, Silicon Hardware Engineering 
 linkedin: nataliamaribel
+order: 1
 ---

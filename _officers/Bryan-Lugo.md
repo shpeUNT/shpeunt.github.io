@@ -23,5 +23,6 @@ skills:
 interest: 
 - Applying my Electrical Engineering degree to attract power systems and electronics opportunities.
 linkedin: bryanlugobalderas
+order: 3
 ---
 

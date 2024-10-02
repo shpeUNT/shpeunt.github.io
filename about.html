@@ -153,7 +153,7 @@ title: About
   <h2 class="team-header">Executive Board</h2>
   <div class="grid-member-container">
     {% for member in site.officers %} {% if member.exec == true %}
-    <div class="grid-item member">
+    <div class="grid-item member exec-member order-{{ member.order }}">
       <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
       {% if member.hasPage == false %}
       <a class="name" href="/no-officer-page">
@@ -176,7 +176,7 @@ title: About
   <h2 class="team-header">Chair</h2>
   <div class="grid-member-container">
     {% for member in site.officers %} {% if member.exec == false %}
-    <div class="grid-item member">
+    <div class="grid-item member chair-member order-{{ member.order }}">
       <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
       {% if member.hasPage == false %}
       <a class="name" href="/no-officer-page">
