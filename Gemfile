@@ -39,3 +39,8 @@ gem "jekyll-sass-converter", "~> 2.2"
 gem "faraday-retry", "~> 2.0"
 
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.1"

@@ -1,32 +1,25 @@
 ---
 layout: personal
-name: Dustin-Ruiz
+name: Sergio-Santiago
 exec: false
 hasPage: true 
-pimage: /images/officers/png/Dustin.png
-fname: Dustin Ruiz 
-email: DustinRuiz@my.unt.edu
-hometown: Mesquite, TX
-degree: Bachelors in Computer Science
+pimage: 
+fname: Sergio Santiago 
+email: SergioSantiago@my.unt.edu
+hometown: Carrollton, TX
+degree: Bachelors in Cybersecurity
 position: Webmaster 
-quote: “Hard work beats talent when talent doesn't work hard”
-bio: I'm pursuing a Bachelor's in Computer Science at the University of North Texas. Currently, I'm in my third year, and I'm excited to learn more as I advance through my degree. I'm a leader in SHPE UNT as Webmaster, and also leading SHPEHackerz for this 2023-2024 school year. 
+quote: Consult not your fears but your hopes and your dreams. Think not about your frustrations, but about your unfulfilled potential. Concern yourself not with what you tried and failed in, but with what it is still possible for you to do. - Pope John XXIII
+bio: My name is Sergio Santiago and I am pursuing a Bachelor's degree at the University of North Texas, with a strong enthusiasm for exploring the vast opportunities in Cybersecurity, particularly in cloud security. In my role as Webmaster for SHPE, I use my platform to highlight the advantages of computer science and related disciplines, while collaborating with and learning from inspiring individuals. I am dedicated to empowering Hispanics in STEM, and aim to make a positive impact on the world through education, kindness, and curiosity. 
 background:
 - First Generation Student
-- Hispanic Scholarship Fund Scholar
-- Emerald Eagle Scholar at the University of North Texas
-- UNT President List for 2021-2022
-- UNT Dean's List for 2022-2023
-- Awarded ScholarSHPE GE Scholarship for 2022-2023
-- Awarded ScholarSHPE Undergrad Scholarship for 2023-2024
 goals:
-- Secure an internship for the Summer of 2024
-- Attend two hackathons and complete two projects with SHPEHackerz
-- Be active in SHPE by participating in more events/socials
-- Be awarded President's List/Dean's List for 2023-2024
+- Secure an internship for the Summer of 2025
+- Attend a hackathon and complete two projects with SHPEHackerz
+- Grow SHPEHACKERZ through reaching out to members and creating helpful workshops to develop skills
 skills:
-- Programming - C++, C, HTML, CSS, Python, Java
-- Software - VSCode, Github, ReactNative
-interest: Web Developer, Software Developer, and anything software engineering related.
-linkedin: dustinruiz
+- Programming - Python
+- Software - VSCode, Github
+interest: Reverse Engineering, Encryption Techniques, Intrusion Detection and Prevention
+linkedin: sergio-santiago333
 ---

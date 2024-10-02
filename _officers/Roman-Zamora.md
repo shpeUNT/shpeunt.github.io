@@ -1,22 +1,25 @@
 ---
 layout: personal
-name: Oscar-Cura-Martinez
+name: Roman-Zamora
 exec: false
-hasPage: false
-pimage: /images/officers/png/Oscar.png
-fname: Oscar Cura Martinez
-email: OscarCuraMartinez@my.unt.edu
+hasPage: true
+pimage: /images/officers/png/RomanZamora.png
+fname: Roman-Zamora
+email: Romanzamora@my.UNT.edu
 hometown:
-degree: Bachelors in Construction Engineering Technology
+degree: Bachelors in Mechanical Engineer
 position: Athletic Director
-quote:
-bio: 
+quote: It’s nice to be important but it’s more important to be nice 
+bio: My name is Roman Zamora, and I am a senior studying mechanical and energy engineering for my bachelor's degree. I enjoy hanging out with my buddies and playing sports.
 background:
+- First generation student
+- Certificate in achievement from the department of energy
+- Deans list 2021-2023
 - temp
 goals:
-- temp
-skills:
-- temp
-interest: 
-linkedin:
+- Get more people involved in the organization
+- Secure a full-time job after graduation
+skills: 
+- Proficient in Solidworks, MATLAB, Word, Excel, Technical Welding, Mill and Lathe Machinesinterest
+linkedin: roman-zamora-8285262bb
 ---

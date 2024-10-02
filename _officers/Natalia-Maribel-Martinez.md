@@ -1,29 +1,34 @@
 ---
 layout: personal
-name: Fernanda-Padilla
+name: Natalia-Maribel-Martinez
 exec: true
 hasPage: true
-pimage: /images/officers/png/FernandaPadilla.png
-fname:  Fernanda Padilla
-email: MariaPadillaPlatas@my.unt.edu
-hometown: Monterrey, Mexico
-degree: Bachelors in Construction Engineering Technology
-position: President | SHPEtinas Director
-quote: “Nothing can grow in the shade of secrets.” - Isabel Allende, Long Petal of the Sea (2019)
-bio: This is my second year as SHPEtinas director, I am a senior in Construction Engineering Technology. I am currently working in Amazon and as an intern in a commercial construction company. I am originally from Monterrey, Nuevo Leon and have been living in the US since 2012. I love to read, dance, play video games, spend time with my loved ones, and learn new things. I am very passionate about the SHPEtinas program and will always do my very best to help them be successful as future ingenieras!
+pimage: /images/officers/png/NataliaMartinez.png
+fname:  Natalia Maribel Martinez
+email: nataliamartinez3@my.unt.edu
+hometown: Fort Worth, TX
+degree: Bachelors in Computer Engineering
+position: President
+quote: “You only fail, once you give up”
+bio: I am a first-generation daughter with older sibling syndrome. My parents are from Coahuila, Mexico but immigrated to the US in 2000. One of my favorite things to do if I'm not doing presidential duties is running or playing volleyball. I also enjoy going to the movies with friends, and taking my family out to new places I discover while away from home. Alongside my Bachelor's I am minoring in Psychology and Math. The way humans behave has always intrigued me so I decided on a minor. I have been a part of SHPE since Spring 2021. I was the SHPEtinas Director for the 2021-2022 year. Since then I have been involved with SHPEtinas, SHPEHackerz, SHPE Jr, Resume Reviewing, and overall just being a helpful resource to my fellow SHPE Members. It makes me proud to be the President to this amazing organization and I hope to continue to grow the SHPE Vision, Mission and our Familia.
 background: 
-- SHPEtinas Director since Fall 2022
-- Intern at Linbeck since May 2023
-- TEXO 1st Place for Heavy Civil Student Competition
+- First Generation Student
+- IT Support Technician at the College of Engineering 
+- SHPEtinas Director 2021-2022
+- SHPEHackerz Lead 2021-Present
+- SHPE PR 2021-2022
 goals:
-- Be more active
-- Reduce phone screen time
-- Secure a full-time offer before graduation
-- Travel
-- Take and pass my Civil FE Exam
+- Obtain a full-time job before graduation
+- Take 20 students to SHPE National
+- Recruit and Retain 20 students
 skills:
-- Microsoft Word Certified
-- AutoCAD, Bluebeam REVU, BIM 360, Revit 
-interest: Commercial Construction, Architectural Engineering
-linkedin: maria-f-padilla-platas
+- Programming; C++, C, Git, ARMv8 and LEGv8 Assembly Language, Linux, VHDL, Arduino IDE, UML, Bash Scripting, Microsoft Windows, Mac, Linux, KiCad, Eclipse IDE, Xilinx Vivado, Matlab & Simulink
+
+- Bilingual Spanish and English
+
+- Computer Skills Technical Support; Quality Assurance, Software/Hardware Installation, Documentation
+
+- Interpersonal Skills Team Building, Organization, Team/Time Management, Continuous Development, Communication 
+interest: Embedded Systems Engineering, Systems Engineering, Electrical Engineering, Application Engineering, Hardware Engineering, Firmware Engineering, Silicon Hardware Engineering 
+linkedin: nataliamaribel
 ---

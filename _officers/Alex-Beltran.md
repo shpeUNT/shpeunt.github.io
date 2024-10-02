@@ -1,25 +1,26 @@
 ---
 layout: personal
-name: Derek-Borojas
+name: Alex-Beltran
 exec: false
-hasPage: false
-pimage: /images/officers/png/Derek.png
-fname:  Derek Borojas
-email: DerekBorojas@my.unt.edu
-hometown: Denton, TX
-degree: Bachelors in Mechanical Engineering Technology
+hasPage: true
+pimage: /images/officers/png/AlexBeltran.png
+fname:  Alex Beltran
+email: alexbeltran@my.unt.edu
+hometown: Rowlett, TX
+degree: Bachelors in Electrical Engineer
 position: Historian
-quote: temp
-bio: temp
+quote: You only live once, but if you work it right, once is enough. - Joe E. Lewis
+bio: I'm from Rowlett, Texas and moved to Denton to pursue a degree in Electrical Engineering. I did not have a community where I could go to when I first came to UNT until i found SHPE. I have been able to express my love for sports and photography through my time being here. Being a first-gen student, it was hard getting the hang of the lifestyle and I'm still learning.
 background: 
-- temp
-- temp
+- First Generation Student
 goals:
-- temp
-- temp
+- Increase social media attraction
+- Capture every special moment
+- Secure internships through SHPE
 skills:
-- temp
-- temp
-interest: temp
-linkedin: derek-borjas-864b34258
+- Proficient in MATLAB, and C++
+- Microsoft Powerpoint and Word Certified
+- MIG Welding Certified
+interest: Electrical Engineering at an aerospace company
+linkedin: alexbeltran1
 ---

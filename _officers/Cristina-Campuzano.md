@@ -1,28 +1,28 @@
 ---
 layout: personal
-name: Citalic-Celestino-Vazquez
+name: Cristina-Campuzano
 exec: false
 hasPage: true
-pimage: /images/officers/png/Citalic.png
-fname:  Citalic Celestino Vazquez
-email: CitalicCelestinoVazquez@my.unt.edu
-hometown: Denton, TX
-degree: Bachelors in Mechanical and Energy Engineering with a Minor in Mathematics
+pimage: /images/officers/png/CristinaCampuzano.png
+fname:  Cristina Campuzano
+email: CristinaCampuzano@my.unt.edu
+hometown: Humble, TX
+degree: Biomedical Engineering (Biotechnology/Pre-med track), minor in Chemistry and Biology
 position: SHPE Junior Director
-quote: “Querer es poder.”
-bio: My name is Citlalic, which means "Rising Star" in Nahuatl, the language of the Aztecs . love dance, sing, craft, travel and watch movies in my free time. I enjoy using CAD software to design and 3D print. My dream job is to work at an amusement park as a roller coaster engineer where I can use my engineering skills and my creativity to create fun rides.
+quote: It’s the possibility of having a dream come true that makes life interesting. - Paulo Coelho, The Alchemist
+bio: Hello, my name is Cristina Campuzano, I am a junior pursuing a degree in Biomedical Engineering in the biotechnology/pre-med track. I hope to apply my skills in the field of medicine to improve the quality of life of all individuals. I am passionate about the SHPE Jr program as it empowers and supports younger generations to pursue their dreams in the field of STEM. In my free time I like to craft, bake, listen to music, and crochet.
 background: 
 - First Generation Student
-- Awarded the UNT Excellence Scholarship
-- Current Vice President/Project Manager for UNT Underwater Robotics Team
+- UNT Undergraduate Research Fellowship for 2024-2025
+- UNT Transfer Excellence Scholarship
+- A.S. Biology, Lone Star Community College
 goals:
-- Establish a UNT SHPE Jr. Chapter 
-- Secure a job before Graduation in Spring 2024
-- Attend SHPE National Convention
-- Graduate with academic honors 
+- Develop a wider outreach network for SHPE Jr
+- Secure an internship for the summer of 2025
+- Have a published research paper
 skills:
-- CAD Software - Solidworks, Autodesk Inventor
-- Proficient in using MATLAB
-interest: Robotics, Prosthetics, Aerospace, Manufacturing 
-linkedin: citlalic-celestino-811a5a23b
+- Programming, MATLAB, LabView (Intermediate), Python (Intermediate)
+- Software, ImageJ, SolidWorks, Multisim, GraphPrisim, Microsoft Office Suite
+interest: Cell & tissue engineering and biomaterials & drug delivery
+linkedin: cristinacampuzano
 ---

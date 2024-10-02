@@ -1,27 +1,27 @@
 ---
 layout: personal
-name: Ryan-Tijerina
+name: Bryan-Lugo
 exec: false
 hasPage: true
-pimage: /images/officers/png/RyanTijerina.png
-fname: Ryan Tijerina
+pimage: /images/officers/png/BryanLugo.png
+fname: Bryan-Lugo-Balderas
 email: RyanTijerina@my.unt.edu
-hometown: North Richland Hills, TX
-degree: Bachelors in Mechanical and Energy Engineering
+hometown: Midlothian, TX
+degree: Bachelors of Electrical Engineering
 position: MentorSHPE Officer
-quote: “As we advance in life it becomes more and more difficult, but in fighting the difficulties the inmost strength of the heart is developed.”
-bio: My major is Mechanical Engineering, and I plan on applying my skills to a company as a fulfilled career. Being an Engineer has always been a career that has attained my inspiration to make future technological innovations that help improve machine mechanisms to operate expeditiously. I’m currently a MentorSHPE director for The Society of Hispanic Professional Engineers (SHPE) at The University of North Texas.
+quote: Never regret a day in your life. Good days give you happiness. Bad days give you experience. The worst days are lessons. The best days give you memories. You cannot have the good without the bad.
+bio: I am an aspiring electrical engineer with a strong passion for understanding how my field has shaped the world and continues to drive innovation. I'm committed to mastering the principles of electrical engineering, inspired by the real-world impact of technology—whether it's power systems, electronics, or modern computing. I'm eager to contribute to the ongoing evolution of technology, knowing that it plays a crucial role in solving global challenges and improving the quality of life for people everywhere.
 background:
-- Experience in running Solidworks to focus on the design properties of mechanical mechanisms
-- Hands on experience with the material science properties undergoing transitions
+- First Generation Student 
+- Associates degree from Navarro College 
 goals:
-- Successfully land an internship this upcoming summer 2023.
-- Developing a strong mentor and mentee group within SHPE.
+- Keeping developing a great mentorshpe program 
+- Land an internship for the 2025 summer
 skills:
-- Sufficient in using Solidworks to design 3-D simulations.
-- Strongly driven to be a team-work minded individual
+- Proficient in MATLAB, Multisim, Verilog Systems 
+- Programming, C++, C, Phyton, VHDL
 interest: 
-- Focusing on applying my Mechanical Engineering degree to draw and design machine elements to systematically run automations.
-linkedin: ryan-tijerina-231486180
+- Applying my Electrical Engineering degree to attract power systems and electronics opportunities.
+linkedin: bryanlugobalderas
 ---
 
