@@ -5,7 +5,7 @@ exec: false
 hasPage: true
 pimage: /images/officers/png/MariaGonzalez.png
 fname: Maria Gonzalez
-email: ceciliarod2811@gmail.com
+email: MariaGonzalez10@my.UNT.edu
 hometown: Katy, TX
 degree: Bachelors in Material Science and Energy
 position: Shpetinas Director

@@ -4,7 +4,7 @@ name: Bryan-Lugo
 exec: false
 hasPage: true
 pimage: /images/officers/png/BryanLugo.png
-fname: Bryan-Lugo-Balderas
+fname: Bryan Lugo Balderas
 email: RyanTijerina@my.unt.edu
 hometown: Midlothian, TX
 degree: Bachelors of Electrical Engineering
