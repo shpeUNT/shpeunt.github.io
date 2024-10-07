@@ -34,4 +34,5 @@ skills:
   - Languages > Fluent in English, Basic Spanish, Elementary Korean
 interest: Developing object detection systems with Cooperative Perception in the Autonomous Vehicles field, and promoting STEM education among underrepresented communities.
 linkedin: dwc13
+order: 7
 ---

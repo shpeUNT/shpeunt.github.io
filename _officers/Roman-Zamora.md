@@ -7,7 +7,7 @@ pimage: /images/officers/png/RomanZamora.png
 fname: Roman-Zamora
 email: Romanzamora@my.UNT.edu
 hometown:
-degree: Bachelors in Mechanical Engineer
+degree: Bachelors in Mechanical Engineering
 position: Athletic Director
 quote: It’s nice to be important but it’s more important to be nice 
 bio: My name is Roman Zamora, and I am a senior studying mechanical and energy engineering for my bachelor's degree. I enjoy hanging out with my buddies and playing sports.
@@ -22,4 +22,5 @@ goals:
 skills: 
 - Proficient in Solidworks, MATLAB, Word, Excel, Technical Welding, Mill and Lathe Machinesinterest
 linkedin: roman-zamora-8285262bb
+order: 6
 ---

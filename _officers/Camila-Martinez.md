@@ -27,7 +27,7 @@ skills:
 - American Hotel&Lodging Educational Institute, Managing Front Office Operations certificate 
 - LinkedIn learning certificate, Learning PowerPoint Desktop( office 365/ Microsoft 365) 
 - LinkedIn certificate, social media marketing foundations 
-
 interest: After graduation, I want to work in an HR position at Hilton Hotels. My ultimate end goal and current dream is to open my own Bed and Breakfast one day in the countryside with horse stables and have my own hotel business.
 linkedin: Camila-martinez194139230
+order: 4
 ---

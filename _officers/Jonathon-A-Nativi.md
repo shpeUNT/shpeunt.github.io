@@ -26,4 +26,5 @@ skills:
 - Microsoft 360 Proficient, strong communicator, optimistic, & a good multi-tasker.
 interest: Front-end Development, Software Development, Computer Hardware Specialists, Web Development, Systems Administrator.
 linkedin: jonathan-nativi-33252a270
+order: 8
 ---
