@@ -7,7 +7,7 @@ pimage: /images/icons/png/eagle_logo.png
 fname: Modesto Limon
 email: modestolimon7@gmail.com
 hometown: na
-degree: Bachelors in Mechanical Engineering Technology
+degree: Bachelors in Mechanical & Energy Engineering
 position: Internal Vice-President
 quote: temp
 bio: temp

@@ -4,7 +4,7 @@ name: Derek-Borojas
 exec: true
 hasPage: false
 pimage: /images/officers/png/Derek.png
-fname:  Derek Borojas
+fname:  Derek Borjas
 email: DerekBorojas@my.unt.edu
 hometown: Denton, TX
 degree: Bachelors in Mechanical Engineering Technology
