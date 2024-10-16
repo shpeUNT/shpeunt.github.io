@@ -3,7 +3,7 @@ layout: personal
 name: Emilio-Pena
 exec: true
 hasPage: true
-pimage: /images/officers/png/Emilio.png
+pimage: /images/officers/png/EmilioPena.jpeg
 fname:  Emilio Pena
 email: ebp0053@gmail.com
 hometown: Baton Rouge, Louisiana

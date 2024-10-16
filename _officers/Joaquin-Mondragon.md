@@ -5,8 +5,8 @@ exec: true
 hasPage: true 
 pimage: /images/officers/png/JoaquinMondragon.png
 fname:  Joaquin Mondragon
-email: AlexandroChavarria@my.unt.edu
-hometown: Las Cruces, New Mexico 
+email: JoaquinMondragon@my.unt.edu
+hometown: Katy, TX
 degree: Bachelors in Mechanical and Energy Engineering
 position: Secretary
 quote:  Success is not final, failure is not fatal; It is the courage to continue that counts. - Winston Churchill
