@@ -151,30 +151,33 @@ title: About
 
   <!-- Officers Exec Board -->
   <h2 class="team-header">Executive Board</h2>
-  <div class="grid-member-container">
+  <div class="parent-container">
+    <div class="grid-officers">
     {% for member in site.officers %} {% if member.exec == true %}
-    <div class="grid-item member exec-member order-{{ member.order }}">
-      <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
-      {% if member.hasPage == false %}
-      <a class="name" href="/no-officer-page">
-        <p>{{ member.fname }}</p>
-      </a>
-      {% endif %} {% if member.hasPage == true %}
-      <a class="name" href="/officers/{{ member.name }}">
-        <p>{{ member.fname }}</p>
-      </a>
-      {% endif %}
-      <p class="office-position">{{ member.position }}</p>
-      <p class="degree">{{ member.degree }}</p>
-      <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i
-          class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
+      <div class="grid-item member exec-member order-{{ member.order }}">
+        <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
+        {% if member.hasPage == false %}
+          <a class="name" href="/no-officer-page">
+            <p>{{ member.fname }}</p>
+          </a>
+        {% endif %}
+        {% if member.hasPage == true %}
+          <a class="name" href="/officers/{{ member.name }}">
+            <p>{{ member.fname }}</p>
+          </a>
+        {% endif %}
+        <p class="office-position">{{ member.position }}</p>
+        <p class="degree">{{ member.degree }}</p>
+        <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i
+        class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
     {% endif %} {% endfor %}
+    </div>
   </div>
 
   <!-- Officers Chairs -->
   <h2 class="team-header">Chair</h2>
-  <div class="grid-member-container">
+  <div class="grid-officers">
     {% for member in site.officers %} {% if member.exec == false %}
     <div class="grid-item member chair-member order-{{ member.order }}">
       <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
@@ -197,7 +200,7 @@ title: About
 
   <!-- Advisor -->
   <h2 class="team-header">Advisor</h2>
-  <div class="grid-member-container">
+  <div class="advisor-container">
     <div class="grid-item member advisor">
       <img src="/images/officers/png/Hector.jpg" alt="Hector R. Siller Profile Image" />
       <a class="name" href="https://mechanical.engineering.unt.edu/faculty/hector-r-siller">
