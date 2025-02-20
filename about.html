@@ -168,8 +168,10 @@ title: About
         {% endif %}
         <p class="office-position">{{ member.position }}</p>
         <p class="degree">{{ member.degree }}</p>
+        {% if member.linkedin != "temp" %}
         <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i
         class="fa fa-linkedin" aria-hidden="true"></i></a>
+        {% endif %}
       </div>
     {% endif %} {% endfor %}
     </div>
@@ -192,8 +194,10 @@ title: About
       {% endif %}
       <p class="office-position">{{ member.position }}</p>
       <p class="degree">{{ member.degree }}</p>
+      {% if member.linkedin != "temp" %}
       <a class="linkin-button" href="https://www.linkedin.com/in/{{ member.linkedin }}/" target="_blank"><i
           class="fa fa-linkedin" aria-hidden="true"></i></a>
+      {% endif %}
     </div>
     {% endif %} {% endfor %}
   </div>
