@@ -17,35 +17,32 @@
 	font-size: 1.5em;
 }
 .link-btn {
-	margin: 5px auto;
-	border: 2px solid black;
-	padding: 5px;
-	width: 45vw;
+    margin: 5px auto;
+    border: 2px solid black;
+    padding: 5px;
+    width: 45vw;
     display: block;
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
 }
 .link-btn:hover { 
-	background: black;
-	color: white;
+    background: black;
+    color: white;
 }
 
 .personal img {
-	height: 400px;
-	width: 400px;
+    height: 400px;
+    max-width: 400px;
     display: block;
     margin: 0 auto;
-}
-.personal .info h3, .personal .info p, .personal .info ul {
-    display: grid;
+    margin-top: 1em;
 }
 .personal h3 {
     margin-top: 25px;
 }
 .personal p, .personal li { 
     font-size: 1.25em;
-    // font-weight: bold;
 }
 .personal p { 
     margin: 0 15vw; 
@@ -54,6 +51,13 @@
     padding-left: 0;
     margin: 0 auto;
     width: 50vw;
+}
+.personal ul p {
+    text-align: left;
+    margin: auto;
+}
+.personal .info {
+    margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 700px) {
