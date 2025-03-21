@@ -4,59 +4,67 @@ layout: default
 
 <!-- ======= Personal Section ======= -->
 <section class="personal">
-    <div class="title-bar">
-        <h1>{{ page.fname }}</h1>
-        <h2>{{ page.degree }}</h2>
-        <h2>Email: {{ page.email }}</h2>
-        <a class="link-btn" href="https://www.linkedin.com/in/{{ page.linkedin }}/"><i class="fa fa-linkedin"
-                aria-hidden="true"></i> Visit My LinkedIn!</a>
+  <div class="title-bar">
+    <h1>{{ page.fname }}</h1>
+    <h2>{{ page.position }}</h2>
+    <h2>{{ page.degree }}</h2>
+    <div>
+      <a class="link-btn" href="mailto:{{ page.email }}">
+        <i class="fa fa-envelope" aria-hidden="true"></i> Contact Me
+      </a>
+      <a
+        class="link-btn"
+        href="https://www.linkedin.com/in/{{ page.linkedin }}/"
+      >
+        <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn Profile
+      </a>
     </div>
+  </div>
 
-    <div class="info">
-        <img src="{{ page.pimage }}" alt="{{ page.fname }} Headshot Photo" />
+  <div class="info">
+    <img src="{{ page.pimage }}" alt="{{ page.fname }} Headshot Photo" />
 
-        <!-- ============== -->
-        <h3>Quote</h3>
-        <p>{{ page.quote }}</p>
+    {% if page.quote %}
+    <h3>Inspirational Quote</h3>
+    <p>
+      <i class="fa fa-quote-left" aria-hidden="true"></i> {{ page.quote }}
+      <i class="fa fa-quote-right" aria-hidden="true"></i>
+    </p>
+    {% endif %}
 
-        <!-- ============== -->
-        <h3>SHPE Position</h3>
-        <p>{{ page.position }}</p>
+    <h3>About Me</h3>
+    <p>{{ page.bio }}</p>
 
-        <!-- ============== -->
-        <h3>About Me</h3>
-        <p>{{ page.bio }}</p>
+    <h3>Background</h3>
+    <ul class="bg-ul">
+      <p>
+        <i class="fa fa-home" aria-hidden="true"></i> Hometown: {{ page.hometown
+        }}
+      </p>
+      {% for bg in page.background %}
+      <p><i class="fa fa-check-circle" aria-hidden="true"></i> {{ bg }}</p>
+      {% endfor %}
+    </ul>
 
-        <!-- ============== -->
-        <h3>Background</h3>
-        <ul>
-            <li>Hometown - {{ page.hometown }}</li>
-            {% for bg in page.background %}
-            <li>{{ bg }}</li>
-            {% endfor %}
-        </ul>
+    <h3>Technical Skills & Expertise</h3>
+    <ul>
+      {% for skill in page.skills %}
+      <p><i class="fa fa-star" aria-hidden="true"></i> {{ skill }}</p>
+      {% endfor %}
+    </ul>
 
-        <!-- ============== -->
-        <h3>Skills</h3>
-        <ul>
-            {% for skill in page.skills %}
-            <li>{{ skill }}</li>
-            {% endfor %}
-        </ul>
+    {% if page.interest %}
+    <h3>Current Career Interests</h3>
+    <p>
+      <i class="fa fa-lightbulb-o" aria-hidden="true"></i> {{ page.interest }}
+    </p>
+    {% endif %}
 
-        <!-- ============== -->
-        <h3>Current Career Interests</h3>
-        <p>{{ page.interest }}</p>
-
-        <!-- ============== -->
-        <h3>Future Goals</h3>
-        <ul>
-            {% for goal in page.goals %}
-            <li>{{ goal }}</li>
-            {% endfor %}
-        </ul>
-        </br>
-        </br>
-    </div> <!-- End Info Div -->
-</section> <!-- End Personal Section -->
-<!-- End Personal Section -->
+    <h3>Future Goals</h3>
+    <ul>
+      {% for goal in page.goals %}
+      <p><i class="fa fa-flag" aria-hidden="true"></i> {{ goal }}</p>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
