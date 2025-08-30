@@ -1,10 +1,11 @@
-@import "shpe-header.scss", "shpe-footer.scss";
-@import "home.scss";
-@import "about.scss";
-@import "personal.scss";
-@import "events.scss";
-@import "membershpe.scss";
-@import "hero"; // For home page
+@use "shpe-header.scss";
+@use "shpe-footer.scss";
+@use "home.scss";
+@use "about.scss";
+@use "personal.scss";
+@use "events.scss";
+@use "membershpe.scss";
+@use "hero"; // For home page
 
 /*--------------------------------------------------------------
 # General
