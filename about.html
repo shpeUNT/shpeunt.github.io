@@ -193,9 +193,9 @@ title: About
 
   <!-- Team Section -->
   <section class="team-section" id="team">
-    <h2 class="section-title">Meet the 2024-25 UNT TEAM</h2>
+    <h2 class="section-title">Meet the 2025-26 UNT TEAM</h2>
     <div class="team-photo-container">
-      <img class="team-photo" src="/images/shpe/jpg/Officer_Team24.png" alt="Officer Team Photo" />
+      <img class="team-photo" src="/images/officers_25/OFFICERS2526.JPG" alt="Officer Team Photo" />
     </div>
     
     <!-- Executive Board -->
@@ -206,9 +206,7 @@ title: About
         {% for member in sortedMembers %} 
         {% if member.exec == true %}
         <div class="team-card order-{{ member.order }}">
-          <a 
-          href="{% if member.hasPage == true %}/officers/{{ member.name }}{% else %}/no-officer-page{% endif %}" 
-          class="team-card-link">
+          <a class="team-card-link">
             <div class="team-card-image">
               <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
             </div>
@@ -231,21 +229,16 @@ title: About
     
     <!-- Chair Members -->
     <div class="team-category">
-      <h3 class="team-category-title">Chair</h3>
+      <h3 class="team-category-title">Directors</h3>
       <div class="team-grid">
-        {% for member in site.officers %} 
+        {% for member in sortedMembers %} 
           {% if member.exec == false %}
-          <div class="team-card">
+          <div class="team-card order-{{ member.order }}">
             <div class="team-card-image">
               <img src="{{ member.pimage }}" alt="{{ member.name }} Profile Image" />
             </div>
             <div class="team-card-info">
-              {% if member.hasPage == false %}
-                <h4><a href="/no-officer-page">{{ member.fname }}</a></h4>
-              {% endif %}
-              {% if member.hasPage == true %}
-                <h4><a href="/officers/{{ member.name }}">{{ member.fname }}</a></h4>
-              {% endif %}
+              <h4>{{ member.fname }}</h4>
               <p class="position">{{ member.position }}</p>
               <p class="degree">{{ member.degree }}</p>
               {% if member.linkedin != "temp" %}

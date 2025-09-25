@@ -3,7 +3,7 @@ layout: personal
 name: Alex-Beltran
 exec: false
 hasPage: true
-pimage: /images/officers/png/AlexBeltran.png
+pimage: /images/officers_25/AlexBeltran.JPG
 fname:  Alex Beltran
 email: alexbeltran@my.unt.edu
 hometown: Rowlett, TX

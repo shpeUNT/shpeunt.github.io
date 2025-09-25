@@ -3,7 +3,7 @@ layout: personal
 name: Katie-Rodriguez
 exec: false
 hasPage: true
-pimage: /images/officers/png/KatieRod.png
+pimage: /images/officers_25/KatieRodriguez.JPG
 fname:  Katie Rodriguez
 email: Katierodriguez4@my.unt.edu 
 hometown: El Paso, Tx

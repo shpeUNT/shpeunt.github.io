@@ -3,12 +3,12 @@ layout: personal
 name: Modesto-Limon
 exec: true
 hasPage: false
-pimage: /images/icons/png/eagle_logo.png
+pimage: /images/officers_25/ModestoLimon.JPG
 fname: Modesto Limon
 email: modestolimon7@gmail.com
 hometown: na
 degree: Bachelors in Mechanical & Energy Engineering
-position: Internal Vice-President
+position: President
 quote: temp
 bio: temp
 background: 
@@ -22,5 +22,5 @@ skills:
 - temp
 interest: temp
 linkedin: modesto-limon-jr
-order: 2
+order: 1
 ---

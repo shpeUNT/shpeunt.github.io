@@ -8,21 +8,31 @@
 }
 
 .navbar {
-    background-color: black;
+    background-color: rgb(1, 24, 9);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 25px;
+    max-height: 80px;
+    overflow: hidden;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: clamp(16px, 1.5vw, 18px);
+    line-height: 1;
 }
 
 .navbar .logo {
-    max-width: 25%;
+    //max-width: 25%;
     padding: 15px;
 }
 
 .navbar .logo img {
-    max-width: 100%;
+    //max-width: 100%;
+    height: 50px;
+    width: auto;
 }
 
 .nav-list {
@@ -34,15 +44,16 @@
 .nav-list .list-item {
     display: inline-block;
     padding: 10px 10px;
+    border-radius: 20px;
 }
 
 .nav-list .list-item:hover, .nav-list .list-item:hover a {
-    background-color: #333;
+    background-color: #ffffff;
     color: green;
 }
 
 .logo:hover {
-    background: #333;
+    background: rgb(2, 43, 16);
 }
 
 .menu {
